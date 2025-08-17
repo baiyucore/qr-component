@@ -1,5 +1,6 @@
 <template>
-  <div class="card">
+  <div class="container"> 
+    <div class="card">
     <img src="../img/image-qr-code.png" alt="qr-code" />
     <div class="card-content">
       <h1>Improve your front-end skills by building projects</h1>
@@ -7,10 +8,17 @@
   
     </div>
   </div>
+  </div>
+
 </template>
 
 <style scoped>
-
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .card {
   width: 320px;
@@ -20,7 +28,8 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 12px;
   text-align: center;
-  margin: 0 auto;
+  margin:  auto;
+
 }
 .card img {
   width: 296px;
