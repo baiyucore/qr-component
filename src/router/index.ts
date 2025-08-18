@@ -10,6 +10,10 @@ const router = createRouter({
     {
       path: '/blog_preview_card',
       component: () => import('../view/blog_preview_card.vue'),
+    },
+    {
+      path: '/social-links-profile',
+      component: () => import('../view/social-links-profile.vue'),
     }
   ],
 })
