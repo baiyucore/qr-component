@@ -8,8 +8,7 @@ const router = createRouter({
     //   component: () => import('../view/Home.vue'),
     // },
     {
-      path: '/',
-      // path: '/blog-preview-card',
+      path: '/blog_preview_card',
       component: () => import('../view/blog_preview_card.vue'),
     }
   ],
