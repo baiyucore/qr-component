@@ -14,6 +14,10 @@ const router = createRouter({
     {
       path: '/social-links-profile',
       component: () => import('../view/social-links-profile.vue'),
+    },
+    {
+      path: '/recipe-page-main',
+      component: () => import('../view/recipe-page-main.vue'),
     }
   ],
 })
