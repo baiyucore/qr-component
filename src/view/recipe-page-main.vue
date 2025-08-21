@@ -14,21 +14,25 @@
 
         <div class="preparation-time">
           <span> Preparation time</span>
+          <ul>
           <li><span>Total:</span> Approximately 10 minutes</li>
           <li><span>Preparation:</span> 5 minutes</li>
           <li><span>Cooking:</span> 5 minutes</li>
           <li><span>Total:</span> Approximately 10 minutes</li>
+          </ul>
         </div>
 
         <div class="ingredients">
           <span>Ingredients</span>
+          <ul>
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
-          <li>
-            Optional fillings: cheese, diced vegetables, cooked meats, herbs
-          </li>
+            <li>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
         </div>
 
         <div class="Instructions">
