@@ -16,13 +16,14 @@ const router = createRouter({
       component: () => import('../view/social-links-profile.vue'),
     },
     {
+      path: '/product-preview-card-component-main',
+      component: () => import('../view/product_preview_card.vue'),
+    },
+    {
       path: '/recipe-page-main',
       component: () => import('../view/recipe-page-main.vue'),
     },
-    {
-      path: '/product-preview-card-component-main',
-      component: () => import('../view/product-preview-card-component-main.vue'),
-    }
+
   ],
 })
 
