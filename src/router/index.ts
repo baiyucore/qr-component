@@ -18,6 +18,10 @@ const router = createRouter({
     {
       path: '/recipe-page-main',
       component: () => import('../view/recipe-page-main.vue'),
+    },
+    {
+      path: '/product-preview-card-component-main',
+      component: () => import('../view/product-preview-card-component-main.vue'),
     }
   ],
 })
