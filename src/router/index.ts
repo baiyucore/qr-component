@@ -23,6 +23,10 @@ const router = createRouter({
       path: '/recipe-page-main',
       component: () => import('../view/recipe-page-main.vue'),
     },
+    {
+      path: '/four-card-feature-section',
+      component: () => import('../view/four-card-feature-section.vue'),
+    },
 
   ],
 })
